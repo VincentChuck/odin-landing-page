@@ -7,8 +7,8 @@ body {
 
 .header,
 .footer {
-    background-color: #F2D242;
-    color: black;
+    background-color:#3D550C;
+    color: white;
     display: flex;
     justify-content: center;
 }
@@ -23,21 +23,24 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .nav img {
-    height: 150px;
+    height: 80px;
     width: auto;
 }
 
 .header-links {
     display: flex;
     gap: 20px;
+    font-size: 18px;
 }
 
 .header-links a {
     text-decoration: none;
-    color: black;
+    color: #ECF87F;
 }
 
 .header-container {
@@ -45,34 +48,138 @@ body {
     display: flex;
     justify-content: space-between;
     width: 1000px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+}
+
+.hero-main,
+.hero-secondary {
+    color: white;
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: 800;
-    color: #F9FAF8;
+    margin-top: 20px;
 }
 
 .hero-secondary {
     font-size: 30px;
-    color: red;
+    margin: 10px 0;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #81B622;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 25px;
+    margin: 10px 0;
+}
+
+iframe {
+    width: 490px;
+    height: 276px;
+    border: none;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 500px; */
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #3D550C;
+    margin: 40px 0;
+}
+
+.information-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex: 0;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.information-item {
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .information img {
-    height: 10em;
-    width: auto;
-    border: solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border: solid #81B622;
     border-radius: 1em;
 } 
 
 .quote-background {
-    background-color: #E5E7EB;
+    background-color: #ECF87F;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    color: #3D550C;
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 80px;
     font-weight: lighter;
     font-style: italic; 
-    color: #1F2937;
+}
+
+.quotemaster {
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call-to-action-background {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-banner {
+    width: 800px;
+    background-color: #81B622;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.call-to-action-head {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.call-to-action-banner button {
+    border: solid white;
+    align-self: center;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
